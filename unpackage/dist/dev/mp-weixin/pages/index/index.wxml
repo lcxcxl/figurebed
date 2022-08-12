@@ -1,0 +1,1 @@
+<view class="box"><view class="content" style="{{'transform:'+(transform)+';'}}" id="test"><block wx:for="{{4}}" wx:for-item="item" wx:for-index="index"><view data-event-opts="{{[['touchstart',[['touchstart',['$event',index]]]],['touchend',[['touchend',['$event',index]]]]]}}" class="item" bindtouchstart="__e" bindtouchend="__e">{{index}}</view></block></view></view>

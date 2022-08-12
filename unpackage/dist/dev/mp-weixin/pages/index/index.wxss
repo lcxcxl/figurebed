@@ -1,0 +1,20 @@
+
+.current {
+	-webkit-transform: translateX(-100%);
+	        transform: translateX(-100%);
+}
+.box {
+	width: 375px;
+}
+.content {
+	display: flex;
+	height: 100px;
+	transition: all .3;
+}
+.item {
+	width: 100%;
+	flex-shrink:0;
+	height: 100px;
+	background-color: skyblue;
+}
+
